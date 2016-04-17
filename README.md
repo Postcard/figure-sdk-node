@@ -14,7 +14,7 @@ Installation
 Install the Figure SDK by running:
 
 ```sh
-$ npm install --save figure-sdk-node
+$ npm install --save figure-sdk
 ```
 
 Documentation
