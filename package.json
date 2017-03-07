@@ -1,6 +1,6 @@
 {
   "name": "figure-sdk",
-  "version": "0.1.12",
+  "version": "0.2.0",
   "description": "The Figure JavaScript SDK",
   "main": "lib/figure.js",
   "homepage": "https://github.com/postcard/figure-sdk-node",
@@ -13,7 +13,7 @@
     "figure",
     "photobooth"
   ],
-  "author": "Benoît Guigal <benoit@postcardgroup.com>",
+  "author": "Benoît Guigal <benoit@figure.co>",
   "license": "MIT",
   "dependencies": {
     "bluebird": "^2.9.6",
