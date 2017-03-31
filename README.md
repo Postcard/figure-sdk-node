@@ -1,7 +1,7 @@
 Figure SDK
 ---------
 
-The official [Figure](https://figuredevices.com/) SDK for Javascript.
+The official [Figure](https://figuredevices.com/) SDK for Node.
 
 Role
 ----
@@ -17,12 +17,14 @@ Install the Figure SDK by running:
 $ npm install --save figure-sdk
 ```
 
-Documentation
-------------
-
-Please see [https://figuredevices.com/docs/api/?javascript](https://figuredevices.com/docs/api/?javascript) for the most up to
-date documentation.
-
+Basic usage
+---------
+```
+var Figure = require('figure-sdk');
+var figure = Figure({token: 'token'});
+var options = { query: { event__uuid: 'event_uuid', last: 10} }
+figure.portraits.getAll(options, function(err, resp) { // do something with response })
+```
 Platforms
 ---------
 
