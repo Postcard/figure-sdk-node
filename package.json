@@ -1,6 +1,6 @@
 {
   "name": "figure-sdk",
-  "version": "0.2.11",
+  "version": "0.2.12",
   "description": "The Figure JavaScript SDK",
   "main": "lib/figure.js",
   "homepage": "https://github.com/postcard/figure-sdk-node",
