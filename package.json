@@ -21,7 +21,7 @@
   "dependencies": {
     "bluebird": "^2.9.6",
     "superagent": "^1.6.0",
-    "lodash": "^3.1.0"
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
